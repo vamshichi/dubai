@@ -110,7 +110,7 @@ const ExhibitorForm = () => {
         </div>
 
         <button type="submit" className="w-full bg-green-500 text-white p-2 rounded hover:bg-green-700">
-          Register
+          Register As Exhibitor
         </button>
       </form>
     </div>
