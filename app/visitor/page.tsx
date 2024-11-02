@@ -1,13 +1,12 @@
 'use client'
 
 import Image from 'next/image'
-// import RegistrationForm from "./components/ui/RegistrationForm"
+import RegistrationForm from "@/app/components/ui/RegistrationForm"
 import ExhibitionDetails from "@/app/components/ExhibitionDetails"
-import bgImage from "@/app/images/Cover1.jpg"
+import bgImage from "@/app/images/bg.jpg"
 import logo from "@/app/images/white logo.png"
-import ExhibitorForm from './components/exhibitor'
 
-export default function Home() {
+export default function Visitor() {
   return (
     <div className="min-h-screen bg-gray-100 overflow-hidden">
       {/* Background Image */}
@@ -20,7 +19,7 @@ export default function Home() {
           quality={100}
           priority
         />
-        <div className="absolute inset-0 bg-black bg-opacity-10" />
+        <div className="absolute inset-0 bg-black bg-opacity-50" />
       </div>
 
       <header className="relative p-4 sm:p-6 lg:p-8 flex flex-col items-center lg:items-start">
@@ -52,7 +51,7 @@ export default function Home() {
         {/* Registration Form */}
         <div className="w-full max-w-md lg:w-1/2 xl:w-2/5 mt-4 lg:mt-0">
           <div className="relative p-6 sm:p-8 rounded-lg shadow-2xl">
-            <ExhibitorForm />
+            <RegistrationForm />
           </div>
         </div>
       </main>

@@ -4,20 +4,21 @@ import prisma from '@/lib/prismaClient'; // Adjust path if necessary
 
 export async function POST(req: NextRequest) {
   try {
-    const { name, email, phone, preferredCity, preferredBudget } = await req.json();
+    const { companyname,country,contactperson,designation, email, phone } = await req.json();
 
     // Save to MongoDB using Prisma
-    const registration = await prisma.registration.create({
+    const exhibitor = await prisma.exhibitor.create({
       data: {
-        name,
-        email,
-        phone,
-        preferredCity,
-        preferredBudget,
+        companyname,   
+        country, 
+        contactperson, 
+        designation,
+        email,       
+        phone          
       },
     });
 
-    const response = NextResponse.json({ message: "Registration successful", registration }, { status: 201 });
+    const response = NextResponse.json({ message: "Registration successful", exhibitor }, { status: 201 });
     response.headers.set('Cache-Control', 'no-store'); // Prevent caching
     return response;
   } catch (error) {
