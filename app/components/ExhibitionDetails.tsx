@@ -36,7 +36,7 @@ export default function ExhibitionDetails() {
     },
     {
       icon: Realestate,
-      title: "Property Xchange",
+      title: "Property Exchange",
       description: "Upgrade seamlessly by exchanging your old properties at our exhibition, ensuring a smooth transition to your new dream home."
     }
   ];
