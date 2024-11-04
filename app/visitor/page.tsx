@@ -22,6 +22,7 @@ export default function Visitor() {
         <div className="absolute inset-0 bg-black bg-opacity-50" />
       </div>
 
+    
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
   {/* Left Column - Header */}
   <header className="relative flex flex-col items-center lg:items-start">
@@ -48,7 +49,7 @@ export default function Visitor() {
   </header>
 
   {/* Right Column - Main Content */}
-  <main className="flex justify-start lg:justify-start lg:pl-8">
+  <main className="flex justify-start lg:justify-end lg:mr-8">
     <div className="w-full max-w-md lg:max-w-lg xl:max-w-xl mt-4 lg:mt-16">
       <div className="relative p-6 sm:p-8 rounded-lg shadow-2xl ">
         <RegistrationForm />
@@ -56,6 +57,7 @@ export default function Visitor() {
     </div>
   </main>
 </div>
+
 
 
       {/* Exhibition Details */}
