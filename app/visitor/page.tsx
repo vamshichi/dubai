@@ -51,7 +51,7 @@ export default function Visitor() {
   {/* Right Column - Main Content */}
   <main className="flex justify-start lg:justify-end lg:mr-8">
     <div className="w-full max-w-md lg:max-w-lg xl:max-w-xl mt-4 lg:mt-16">
-      <div className="relative p-6 sm:p-8 rounded-lg shadow-2xl ">
+      <div className="relative p-6 sm:p-8 rounded-lg  ">
         <RegistrationForm />
       </div>
     </div>
