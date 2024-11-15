@@ -5,10 +5,12 @@ import RegistrationForm from "@/app/components/ui/RegistrationForm"
 import ExhibitionDetails from "@/app/components/ExhibitionDetails"
 import bgImage from "@/app/images/bg.jpg"
 import logo from "@/app/images/white logo.png"
+import FacebookAds from '../components/FacebookAds'
 
 export default function Visitor() {
   return (
     <div className="min-h-screen bg-gray-100 overflow-hidden">
+       <FacebookAds />
       {/* Background Image */}
       <div className="fixed inset-0">
         <Image
