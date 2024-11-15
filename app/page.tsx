@@ -12,7 +12,7 @@ import FacebookAds from './components/FacebookAds'
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 overflow-hidden">
-      <FacebookAds />
+     
       {/* Background Image */}
       <div className="fixed inset-0">
         <Image
