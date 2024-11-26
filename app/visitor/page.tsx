@@ -7,14 +7,15 @@ import bgImage from "@/app/images/bg.jpg"
 import logo from "@/app/images/white logo.png"
 import FacebookAds from '../components/FacebookAds'
 import GoogleAnalytics from '../components/Gads'
-import GoogleTagManager from '../components/ipsgaads'
+import IpsGoogleAnalytics from '../components/ipsgaads'
+
 
 export default function Visitor() {
   return (
     <div className="min-h-screen bg-gray-100 overflow-hidden">
        <FacebookAds />
        <GoogleAnalytics />
-       <GoogleTagManager />
+       <IpsGoogleAnalytics />
       {/* Background Image */}
       <div className="fixed inset-0">
         <Image
