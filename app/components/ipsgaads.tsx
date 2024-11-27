@@ -5,16 +5,16 @@ const IpsGoogleAnalytics = () => {
     <>
       {/* Load the gtag.js library */}
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-LXK6SPF5KS"
+        src="https://www.googletagmanager.com/gtag/js?id=AW-16795325178"
         strategy="afterInteractive"
       />
-      {/* Configure Google Analytics */}
-      <Script id="google-analytics" strategy="afterInteractive">
+      {/* Configure Google Ads */}
+      <Script id="google-ads" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-LXK6SPF5KS');
+          gtag('config', 'AW-16795325178');
         `}
       </Script>
     </>
@@ -22,3 +22,4 @@ const IpsGoogleAnalytics = () => {
 };
 
 export default IpsGoogleAnalytics;
+
