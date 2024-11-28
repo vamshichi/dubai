@@ -1,22 +1,12 @@
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient } from "@prisma/client";
 
-let prisma: PrismaClient;
+const globalForPrisma = global as unknown as { prisma: PrismaClient };
 
-// Declare global type for Node.js to avoid conflicts
-declare global {
-  // This ensures `globalThis.prisma` has the correct type
-  var prisma: PrismaClient | undefined;
-}
+export const prisma =
+  globalForPrisma.prisma ||
+  new PrismaClient({
+    log: ["query"],
+  });
 
-if (process.env.NODE_ENV === 'production') {
-  // In production, always create a new PrismaClient instance
-  prisma = new PrismaClient();
-} else {
-  // In development, reuse an existing PrismaClient instance if available
-  if (!globalThis.prisma) {
-    globalThis.prisma = new PrismaClient();
-  }
-  prisma = globalThis.prisma;
-}
+if (process.env.NODE_ENV !== "production") globalForPrisma.prisma = prisma;
 
-export default prisma;
