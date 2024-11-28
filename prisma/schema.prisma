@@ -23,6 +23,18 @@ model Registration {
   createdAt      DateTime @default(now())
 }
 
+model Googleads {
+  id             String   @id @default(auto()) @map("_id") @db.ObjectId
+  name           String
+  email          String   
+  phone          String
+  preferredCity  String
+  preferredBudget String
+  createdAt      DateTime @default(now())
+}
+
+
+
 model Exhibitor {
    id             String   @id @default(auto()) @map("_id") @db.ObjectId
   // name           String
