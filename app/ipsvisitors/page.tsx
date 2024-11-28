@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import RegistrationForm from "@/app/components/ui/RegistrationForm"
+import RegistrationForm from "@/app/components/ui/Gaform"
 import ExhibitionDetails from "@/app/components/ExhibitionDetails"
 import bgImage from "@/app/images/bg.jpg"
 import logo from "@/app/images/white logo.png"
