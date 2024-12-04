@@ -13,6 +13,7 @@
   "dependencies": {
     "@prisma/client": "^5.22.0",
     "@types/react-datepicker": "^7.0.0",
+    "@vercel/analytics": "^1.4.1",
     "exceljs": "^4.4.0",
     "express": "^4.21.1",
     "lucide-react": "^0.453.0",
