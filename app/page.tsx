@@ -38,7 +38,7 @@ export default function Home() {
       className="w-64 sm:w-80 md:w-96 lg:w-[500px] h-auto"
       priority
     />
-    <p className="text-white text-xl sm:text-2xl md:text-3xl font-bold">
+    <p className="text-white text-xl sm:text-2xl md:text-4xl font-bold">
       BAHRAIN
     </p>
     <p className="text-yellow-500 text-xl sm:text-2xl md:text-3xl font-semibold pb-4">
