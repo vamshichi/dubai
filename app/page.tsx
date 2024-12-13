@@ -3,7 +3,7 @@
 import Image from 'next/image'
 // import RegistrationForm from "./components/ui/RegistrationForm"
 import ExhibitionDetails from "@/app/components/ExhibitionDetails"
-import bgImage from "@/app/images/Coverz.jpg"
+import bgImage from "@/app/images/2x.jpg"
 import logo from "@/app/images/white logo.png"
 import ExhibitorForm from './components/exhibitor'
 import GoogleAnalytics from './components/Gads'
@@ -39,16 +39,16 @@ export default function Home() {
       priority
     />
     <p className="text-white text-xl sm:text-2xl md:text-3xl font-bold">
-      DUBAI
+      BAHRAIN
     </p>
     <p className="text-yellow-500 text-xl sm:text-2xl md:text-3xl font-semibold pb-4">
-      7th and 8th of December
+      21st and 22nd of February
     </p>
     <p className="text-white text-xl sm:text-2xl md:text-3xl font-semibold">
-      CROWNE PLAZA
+      King Faisal Road
     </p>
     <p className="text-white text-xl sm:text-2xl md:text-3xl font-semibold">
-      Salah AI Din St - Deira
+      Manama
     </p>
   </header>
 

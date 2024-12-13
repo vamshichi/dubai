@@ -85,8 +85,8 @@ const ExhibitorForm = () => {
         </div>
 
         <div className="mb-4">
-          <label htmlFor="country" className="block text-gray-700">Country</label>
-          <input type="text" id="country" name="country" className="w-full p-2 border rounded text-gray-700" required placeholder="Enter your country" />
+          <label htmlFor="country" className="block text-gray-700">City</label>
+          <input type="text" id="country" name="country" className="w-full p-2 border rounded text-gray-700" required placeholder="Enter your city" />
         </div>
 
         <div className="mb-4">
