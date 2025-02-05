@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Dubai Real Estate Exhibition",
+  title: "BAHRAIN Real Estate Exhibition",
   description: "Register for the Dubai Real Estate Exhibition",
 };
 
