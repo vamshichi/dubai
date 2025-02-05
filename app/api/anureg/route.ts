@@ -23,7 +23,7 @@ export async function POST(req: Request) {
         // Email options
         const mailOptions = {
             from: process.env.EMAIL, // Sender's email
-            to: "sales@maxpo.ae", // Recipient's email
+            to: "sales@maxpo.ae, digital.maxpo@gmail.com" , // Recipient's email
             subject: "New Registration",
             text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nCity: ${preferredCity}\nBudget: ${preferredBudget}`,
         };

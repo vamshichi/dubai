@@ -42,16 +42,16 @@ export default function Visitor() {
       priority
     />
     <p className="text-white text-xl sm:text-2xl md:text-3xl font-bold">
-      DUBAI
+    BAHRAIN
     </p>
     <p className="text-yellow-500 text-xl sm:text-2xl md:text-3xl font-semibold pb-4">
-      7th and 8th of December
+    21st and 22nd of February
     </p>
     <p className="text-white text-xl sm:text-2xl md:text-3xl font-semibold">
-      CROWNE PLAZA
+    King Faisal Road
     </p>
     <p className="text-white text-xl sm:text-2xl md:text-3xl font-semibold">
-      Salah AI Din St - Deira
+    Manama
     </p>
   </header>
 
