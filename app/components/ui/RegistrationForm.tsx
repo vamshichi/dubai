@@ -23,7 +23,7 @@ const RegistrationForm = () => {
     };
 
     try {
-      const response = await fetch("/api/register", {
+      const response = await fetch("/api/anureg", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
