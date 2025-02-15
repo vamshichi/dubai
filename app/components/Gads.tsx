@@ -4,7 +4,7 @@ const GoogleAnalytics = () => {
   return (
     <>
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-20QG9VJ8JK"
+        src="https://www.googletagmanager.com/gtag/js?id=G-GHP5RK240X"
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -12,7 +12,7 @@ const GoogleAnalytics = () => {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-20QG9VJ8JK');
+          gtag('config', 'G-GHP5RK240X');
         `}
       </Script>
     </>
