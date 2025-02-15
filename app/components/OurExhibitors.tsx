@@ -26,7 +26,7 @@ const OurExhibitors = () => {
     <section className="py-12">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold text-white mb-7">Our Exhibitors</h2>
-        <div className="grid grid-cols-4 sm:grid-cols-3 md:grid-cols-9 gap-4">
+        <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-9 gap-4">
           {exhibitors.map((exhibitor, index) => (
             <div key={index} className="flex justify-center">
               <Image
