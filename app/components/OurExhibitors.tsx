@@ -10,14 +10,14 @@ import img8 from '@/app/images/exhibitors/Artboard 8.jpg'
 import img9 from '@/app/images/exhibitors/Artboard 9.jpg'
 
 const exhibitors = [
-  { name: "Company A", logo: img1 },
+  { name: "Company A", logo: img8 },
   { name: "Company B", logo: img2 },
   { name: "Company C", logo: img3 },
   { name: "Company D", logo: img4 },
   { name: "Company D", logo: img5 },
   { name: "Company D", logo: img6 },
   { name: "Company D", logo: img7 },
-  { name: "Company D", logo: img8 },
+  { name: "Company D", logo: img1 },
   { name: "Company D", logo: img9 },
 ];
 
