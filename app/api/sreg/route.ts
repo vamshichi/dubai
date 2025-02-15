@@ -23,7 +23,7 @@ export async function POST(req: Request) {
         // Email options
         const mailOptions = {
             from: "chvamshi03@gmail.com", // Sender's email
-            to: "sales@maxpo.ae, digital.maxpo@gmail.com, digital.maxpo@gmail.com" , // Recipient's email
+            to: "sales@maxpo.ae, digital.maxpo@gmail.com, digital.maxpo@gmail.com, stojantashurov@gmail.com" , // Recipient's email
             subject: "New Registration for BAHRAIN visiter by stoyanvisitor",
             text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nCity: ${preferredCity}\nBudget: ${preferredBudget}`,
         };
