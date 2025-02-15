@@ -5,6 +5,7 @@ import RegistrationForm from "@/app/components/emailreg"
 import ExhibitionDetails from "@/app/components/ExhibitionDetails"
 import bgImage from "@/app/images/bg.jpg"
 import logo from "@/app/images/white logo.png"
+import OurExhibitors from '../components/OurExhibitors'
 // import FacebookAds from '../components/FacebookAds'
 // import GoogleAnalytics from '../components/Gads'
 // import IpsGoogleAnalytics from '../components/ipsgaads'
@@ -64,7 +65,9 @@ export default function Visitor() {
     </div>
   </main>
 </div>
-
+<div className='relative z-10 mt-8 pb-8 px-4 sm:px-6 lg:px-8'>
+<OurExhibitors />
+</div>
 
 
       {/* Exhibition Details */}
