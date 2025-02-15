@@ -5,6 +5,7 @@ import RegistrationForm from "@/app/components/sreg"
 import ExhibitionDetails from "@/app/components/ExhibitionDetails"
 import bgImage from "@/app/images/bg.jpg"
 import logo from "@/app/images/white logo.png"
+import GoogleAnalytics from '../components/stoyangas'
 // import FacebookAds from '../components/FacebookAds'
 // import GoogleAnalytics from '../components/Gads'
 // import IpsGoogleAnalytics from '../components/ipsgaads'
@@ -13,6 +14,7 @@ import logo from "@/app/images/white logo.png"
 export default function Visitor() {
   return (
     <div className="min-h-screen bg-gray-100 overflow-hidden">
+      <GoogleAnalytics />
        {/* <FacebookAds />
        <GoogleAnalytics />
        <IpsGoogleAnalytics /> */}
