@@ -3,9 +3,10 @@
 import RegistrationForm from "@/app/components/sreg";
 import GoogleAnalytics from "../components/stoyangas";
 import Image from "next/image";
-import mainImage from "@/app/images/WEB.png";
+// import mainImage from "@/app/images/WEB.png";
+import mainImage from "@/app/images/reg from image-01.jpg";
 // Import your background image (ensure you have this asset)
-import bgImage from "@/app/images/41x.jpg";
+import bgImage from "@/app/images/1x.jpg";
 
 export default function VisitorPage() {
   return (
@@ -15,7 +16,7 @@ export default function VisitorPage() {
         src={bgImage}
         alt="Page background"
         fill
-        className="absolute inset-0 object-cover z-0"
+        className="absolute inset-0 object-cover z-0 bg-black opacity-80"
       />
 
       {/* Optional overlay for readability */}
