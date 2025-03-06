@@ -4,28 +4,28 @@ import nodemailer from "nodemailer";
 export async function POST(req: Request) {
     try {
         // Parse the request body
-        const { name, email, phone, preferredCity, preferredBudget } = await req.json();
+        const { companyName, contactPerson, designation, phone, email, city, category } = await req.json();
 
         // Validate the input
-        if (!name || !email || !phone || !preferredCity || !preferredBudget) {
+        if (!companyName || !contactPerson || !designation || !phone || !email || !city || !category) {
             return NextResponse.json({ message: "All fields are required" }, { status: 400 });
         }
 
         // Configure the email transporter
         const transporter = nodemailer.createTransport({
-            service: "gmail", // Use your email provider (e.g., Gmail)
+            service: "gmail",
             auth: {
-                user: "chvamshi03@gmail.com", // Your email address
-                pass: "hcfj ewwj tecd kqnx", // Your email password or app password
+                user: "chvamshi03@gmail.com",
+                pass: "hcfj ewwj tecd kqnx",
             },
         });
 
         // Email options
         const mailOptions = {
-            from: "chvamshi03@gmail.com", // Sender's email
-            to: "sales@maxpo.ae, digital.maxpo@gmail.com, digital.maxpo@gmail.com, stojantashurov@gmail.com" , // Recipient's email
-            subject: "New Registration for BAHRAIN visiter by stoyanvisitor",
-            text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nCity: ${preferredCity}\nBudget: ${preferredBudget}`,
+            from: "Gmec Exhibitions <chvamshi03@gmail.com>",
+            to: "digital.maxpo@gmail.com, db.gmecindia@gmail.com",
+            subject: "GMEC Exhibitor Registration",
+            text: `Company Name: ${companyName}\nContact Person: ${contactPerson}\nDesignation: ${designation}\nPhone: ${phone}\nEmail: ${email}\nCity: ${city}\nCategory: ${category}`,
         };
 
         // Send the email
