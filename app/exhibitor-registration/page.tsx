@@ -12,7 +12,7 @@ import FacebookPixel from "../components/FacebookPixel";
 export default function VisitorPage() {
   return (
     <div className="relative min-h-screen">
-      {/* Background Image */}
+      {/* Background Image.. */}
       <Image
         src={bgImage}
         alt="Page background"
