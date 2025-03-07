@@ -1,6 +1,7 @@
 "use client";
 
 import Script from "next/script";
+import Image from "next/image";
 
 const FacebookPixel = () => {
   return (
@@ -20,7 +21,7 @@ const FacebookPixel = () => {
         `}
       </Script>
       <noscript>
-        <img
+        <Image
           height="1"
           width="1"
           style={{ display: "none" }}

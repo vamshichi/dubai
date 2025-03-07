@@ -1,7 +1,7 @@
 "use client";
 
 import RegistrationForm from "@/app/components/sreg";
-import GoogleAnalytics from "../components/stoyangas";
+// import GoogleAnalytics from "../components/stoyangas";
 import Image from "next/image";
 // import mainImage from "@/app/images/WEB.png";
 import mainImage from "@/app/images/reg from image-01.jpg";
