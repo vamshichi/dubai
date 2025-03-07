@@ -23,8 +23,7 @@ export async function POST(req: Request) {
         // Email options
         const mailOptions = {
             from: "Gmec Exhibitions <chvamshi03@gmail.com>",
-            // to: "digital.maxpo@gmail.com, db.gmecindia@gmail.com",
-            to: "avalasandeep02@gmail.com",
+            to: "digital.maxpo@gmail.com, db.gmecindia@gmail.com",
             subject: "GMEC Exhibitor Registration",
             text: `Company Name: ${companyName}\nContact Person: ${contactPerson}\nDesignation: ${designation}\nPhone: ${phone}\nEmail: ${email}\nCity: ${city}\nCategory: ${category}`,
         };
